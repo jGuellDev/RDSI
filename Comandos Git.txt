@@ -5,3 +5,13 @@ git branch
 git branch -M main
 git remote add origin https://github.com/jGuellDev/RDSI.git
 git push -u origin main
+git status
+git commit
+git config --global user.email jlguell@uninorte.edu.co
+git config --username "jlguell"
+git config --global user.name "jlguell"
+git commit
+
+git add . ---> añadir a rama de trabajo
+remote -v ---> ver origenes
+remote remove origin --> quitar origen
