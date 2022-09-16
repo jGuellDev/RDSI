@@ -1,17 +1,27 @@
-git --version
+----> paso para sincronizar con Github
+
+echo "# RDSI" >> README.md
 git init
-git add .
-git branch
+git add README.md
+git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/jGuellDev/RDSI.git
 git push -u origin main
-git status
-git commit
-git config --global user.email jlguell@uninorte.edu.co
-git config --username "jlguell"
-git config --global user.name "jlguell"
-git commit
 
-git add . ---> añadir a rama de trabajo
-remote -v ---> ver origenes
-remote remove origin --> quitar origen
+
+
+----> lo segundo no fue necesario
+
+git remote add origin https://github.com/jGuellDev/RDSI.git
+git branch -M main
+git push -u origin main
+
+
+
+----> Despues de Hacer un cambio
+
+git add .
+git commit
+git push -u origin main
+
+
