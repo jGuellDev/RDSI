@@ -1,0 +1,7 @@
+git --version
+git init
+git add .
+git branch
+git branch -M main
+git remote add origin https://github.com/jGuellDev/RDSI.git
+git push -u origin main
