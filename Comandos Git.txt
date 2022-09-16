@@ -21,7 +21,11 @@ git push -u origin main
 ----> Despues de Hacer un cambio
 
 git add .
-git commit
+git commit ---> debe salir el vim
+Shift + A
+Escape
+Shift + :
+wq
 git push -u origin main
 
 
