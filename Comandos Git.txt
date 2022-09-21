@@ -23,6 +23,7 @@ git push -u origin main
 git add .
 git commit ---> debe salir el vim
 Shift + A
+Poner Nombre de Vesion en parte superior
 Escape
 Shift + :
 wq
